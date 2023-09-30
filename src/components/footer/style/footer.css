@@ -1,0 +1,112 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #08B5C0;
+    right: 0;
+    left: 0;
+    gap: 1em;
+    padding: 1em;
+    position: absolute;
+}
+.Footer_div{
+    width: 100%;
+    max-width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.Footer_img{
+    width: 100%;
+    max-width: 4em;
+    border-radius: 1em;
+}
+.Footer_div-two{
+    width: 100%;
+    max-width: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.Footer_h1{
+    color: #f9f5f5;
+    font-size: 1em;
+}
+.Twitter{
+    font-size: 2em;
+    color: #f9f5f5;
+}
+.Footer_profesion{
+    color: white;
+    font-size: 1.1em;
+}
+.Footer_programmer{
+    color: white;
+    font-size: .8em;
+    margin-top: -.5em;
+    text-align: center;
+}
+
+@media (min-width:700px) {
+    .Footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #08B5C0;
+        right: 0;
+        gap: 9em;
+        padding: 1em;
+    }
+    .Footer_div{
+        width: 100%;
+        max-width: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .Footer_img{
+        width: 100%;
+        max-width: 4em;
+        border-radius: 1em;
+    }
+    .Footer_div-two{
+        width: 100%;
+        max-width: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+    .fin{
+        width: 100%;
+        max-width: 17em;
+       display: flex;
+       gap: 2em;
+       flex-direction: initial;
+    }
+    .Footer_h1{
+        color: #f9f5f5;
+        font-size: 1em;
+    }
+    .Twitter{
+        font-size: 2em;
+        color: #f9f5f5;
+    }
+    .Footer_profesion{
+        color: white;
+        font-size: 1em;
+    }
+    .Footer_programmer{
+        color: white;
+        font-size: .8em;
+        margin-top: -.5em;
+        text-align: center;
+    }
+}
