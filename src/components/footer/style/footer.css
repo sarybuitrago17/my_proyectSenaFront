@@ -55,11 +55,11 @@
     .Footer{
         display: flex;
         align-items: center;
-        justify-content: center;
         background-color: #08B5C0;
         right: 0;
         gap: 9em;
         padding: 1em;
+       
     }
     .Footer_div{
         width: 100%;

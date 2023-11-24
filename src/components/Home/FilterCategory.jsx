@@ -18,8 +18,10 @@ const FilterCategory = () => {
     const dispatch = useDispatch()
 
     const handleCategories = (id) => {
-        const url = `${Api}/products?categoris=${id}`
+        const url = `${Api}/products?category=${id}`
+        console.log(url)
         dispatch(getAllproductsThunk(url)) 
+    console.log("me ejecuté")
     } 
 
     const handleClickAllProducts = () => {
